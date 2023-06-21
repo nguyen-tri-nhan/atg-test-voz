@@ -7,11 +7,11 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1920, 1080)
 
-'step 1: Navigate to Page_whats-new_posts'
+'step 1: Navigate to Page_u'
 
-WebUI.navigateToUrl(GlobalVariable.application_domain + '/whats-new/posts/9263195')
+WebUI.navigateToUrl(GlobalVariable.application_domain + '/u')
 
-'step 2: Add visual checkpoint at Page_whats-new_posts'
+'step 2: Add visual checkpoint at Page_u'
 
 WebUI.takeFullPageScreenshotAsCheckpoint('TestCase-00003_visual_checkpoint')
 
